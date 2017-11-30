@@ -66,7 +66,10 @@
 						color: "black",
 						opacity: 0
 					})
-				})
+				});
+				layer.bindTooltip(name, {
+					direction: 'top'
+				});
 			}
 		}).addTo(map);
 	}
